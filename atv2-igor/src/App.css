@@ -1,16 +1,23 @@
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #282c34;
+.container {
+  background-image: linear-gradient(to top, rgb(24, 36, 104), rgb(7, 150, 185));
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 2vmin;
+}
+
+.containerForm p{
   color: white;
+  font-size: 1.5vmin;
+  text-align: center;
+}
+
+.containerForm h1{
+  margin-top: 0;
+  font-size: 3.5vmin;
+  text-align: center;
+  margin-bottom: 4vmin;
 }
 
 
@@ -30,11 +37,9 @@
   display: flex;
   flex-direction: column;
   max-width: 400px;
+  margin: 20px;
 }
 
-.form h1{
-  margin-top: 0;
-}
 
 .form input{
   height: 2vmin;
@@ -60,4 +65,15 @@
   margin-bottom: 0;
   font-size: 12px;
   text-align: start;
+}
+
+.form button{
+  background-image: linear-gradient(to right, rgb(57, 86, 253), rgb(10, 206, 255));
+  color: white;
+  border: none;
+  border-radius: 35px;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  cursor: pointer;
 }
